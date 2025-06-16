@@ -4,14 +4,14 @@ import { Truck, Clock, Star } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-green-50 to-orange-50 py-20">
+    <section className="relative bg-gradient-to-br from-pink-50 to-orange-50 py-20">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
                 Fresh Flowers
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-orange-500">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-orange-500">
                   {" "}Delivered
                 </span>
               </h2>
@@ -26,7 +26,7 @@ const Hero = () => {
                 <span className="text-sm font-medium">Premium Quality</span>
               </div>
               <div className="flex items-center space-x-2 bg-white rounded-full px-4 py-2 shadow-sm">
-                <Truck className="w-5 h-5 text-green-500" />
+                <Truck className="w-5 h-5 text-pink-500" />
                 <span className="text-sm font-medium">Home Delivery</span>
               </div>
               <div className="flex items-center space-x-2 bg-white rounded-full px-4 py-2 shadow-sm">
@@ -36,7 +36,7 @@ const Hero = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-gradient-to-r from-green-600 to-green-700 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-green-700 hover:to-green-800 transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <button className="bg-gradient-to-r from-pink-600 to-pink-700 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-pink-700 hover:to-pink-800 transition-all duration-300 transform hover:scale-105 shadow-lg">
                 Order Now
               </button>
               <button className="border-2 border-orange-500 text-orange-500 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-orange-500 hover:text-white transition-all duration-300">
@@ -54,8 +54,8 @@ const Hero = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
-            <div className="absolute -top-4 -left-4 w-72 h-72 bg-gradient-to-br from-green-200 to-orange-200 rounded-full opacity-20 animate-pulse"></div>
-            <div className="absolute -bottom-4 -right-4 w-48 h-48 bg-gradient-to-br from-orange-200 to-green-200 rounded-full opacity-20 animate-pulse delay-1000"></div>
+            <div className="absolute -top-4 -left-4 w-72 h-72 bg-gradient-to-br from-pink-200 to-orange-200 rounded-full opacity-20 animate-pulse"></div>
+            <div className="absolute -bottom-4 -right-4 w-48 h-48 bg-gradient-to-br from-orange-200 to-pink-200 rounded-full opacity-20 animate-pulse delay-1000"></div>
           </div>
         </div>
       </div>

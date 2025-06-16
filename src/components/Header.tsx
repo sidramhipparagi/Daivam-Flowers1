@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-orange-400 rounded-full flex items-center justify-center">
+            <div className="w-8 h-8 bg-gradient-to-r from-pink-600 to-orange-400 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-sm">D</span>
             </div>
             <h1 className="text-2xl font-bold text-gray-800">Daivam Flowers</h1>

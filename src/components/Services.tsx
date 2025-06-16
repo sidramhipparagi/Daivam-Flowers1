@@ -42,8 +42,8 @@ const Services = () => {
               key={index} 
               className="text-center p-6 rounded-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group"
             >
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-100 to-orange-100 rounded-full mb-4 group-hover:from-green-500 group-hover:to-orange-500 transition-all duration-300">
-                <div className="text-green-600 group-hover:text-white transition-colors duration-300">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-pink-100 to-orange-100 rounded-full mb-4 group-hover:from-pink-500 group-hover:to-orange-500 transition-all duration-300">
+                <div className="text-pink-600 group-hover:text-white transition-colors duration-300">
                   {service.icon}
                 </div>
               </div>

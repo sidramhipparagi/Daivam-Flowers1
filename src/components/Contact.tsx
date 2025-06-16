@@ -17,7 +17,7 @@ const Contact = () => {
             
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-orange-500 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-orange-500 rounded-full flex items-center justify-center">
                   <Phone className="w-6 h-6" />
                 </div>
                 <div>
@@ -27,7 +27,7 @@ const Contact = () => {
               </div>
               
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-orange-500 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-orange-500 rounded-full flex items-center justify-center">
                   <Mail className="w-6 h-6" />
                 </div>
                 <div>
@@ -37,7 +37,7 @@ const Contact = () => {
               </div>
               
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-orange-500 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-orange-500 rounded-full flex items-center justify-center">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
@@ -47,7 +47,7 @@ const Contact = () => {
               </div>
               
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-orange-500 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-orange-500 rounded-full flex items-center justify-center">
                   <Clock className="w-6 h-6" />
                 </div>
                 <div>
@@ -58,10 +58,10 @@ const Contact = () => {
             </div>
             
             <div className="flex space-x-4 pt-6">
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gradient-to-r hover:from-green-500 hover:to-orange-500 transition-all duration-300">
+              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 transition-all duration-300">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gradient-to-r hover:from-green-500 hover:to-orange-500 transition-all duration-300">
+              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 transition-all duration-300">
                 <Facebook className="w-5 h-5" />
               </a>
             </div>
@@ -74,7 +74,7 @@ const Contact = () => {
                 <label className="block text-sm font-medium mb-2">Your Name</label>
                 <input 
                   type="text" 
-                  className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-white"
+                  className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent text-white"
                   placeholder="Enter your name"
                 />
               </div>
@@ -82,25 +82,25 @@ const Contact = () => {
                 <label className="block text-sm font-medium mb-2">Phone Number</label>
                 <input 
                   type="tel" 
-                  className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-white"
+                  className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent text-white"
                   placeholder="Enter your phone number"
                 />
               </div>
               <div>
                 <label className="block text-sm font-medium mb-2">Delivery Address</label>
                 <textarea 
-                  className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-white h-24"
+                  className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent text-white h-24"
                   placeholder="Enter delivery address"
                 ></textarea>
               </div>
               <div>
                 <label className="block text-sm font-medium mb-2">Special Requirements</label>
                 <textarea 
-                  className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-white h-20"
+                  className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent text-white h-20"
                   placeholder="Any specific flower requirements?"
                 ></textarea>
               </div>
-              <button className="w-full bg-gradient-to-r from-green-500 to-orange-500 text-white py-4 rounded-lg font-semibold hover:from-green-600 hover:to-orange-600 transition-all duration-300 transform hover:scale-105">
+              <button className="w-full bg-gradient-to-r from-pink-500 to-orange-500 text-white py-4 rounded-lg font-semibold hover:from-pink-600 hover:to-orange-600 transition-all duration-300 transform hover:scale-105">
                 Send Order Request
               </button>
             </form>
@@ -109,7 +109,7 @@ const Contact = () => {
         
         <div className="border-t border-gray-800 mt-16 pt-8 text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">
-            <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-orange-400 rounded-full flex items-center justify-center">
+            <div className="w-8 h-8 bg-gradient-to-r from-pink-500 to-orange-400 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-sm">D</span>
             </div>
             <span className="text-2xl font-bold">Daivam Flowers</span>
