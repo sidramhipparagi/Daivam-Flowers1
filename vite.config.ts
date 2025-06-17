@@ -5,6 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   base: "/Daivam-Flowers/",
+  build: {
+    outDir: "docs",
+  },
   server: {
     host: "::",
     port: 8080,
