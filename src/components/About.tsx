@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { MapPin, Truck, Clock, Star } from 'lucide-react';
 
@@ -49,7 +48,7 @@ const About = () => {
           
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&h=400&fit=crop" 
+              src="/images/K R Market.png" 
               alt="K R Market Bengaluru" 
               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
             />

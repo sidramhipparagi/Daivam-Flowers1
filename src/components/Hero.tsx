@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Truck, Clock, Star } from 'lucide-react';
 
@@ -48,7 +47,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10 bg-white rounded-2xl shadow-2xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=600&h=400&fit=crop" 
+                src="/images/ChatGPT Image Jun 17, 2025, 11_51_00 AM.png" 
                 alt="Fresh flowers from K R Market" 
                 className="w-full h-96 object-cover"
               />
