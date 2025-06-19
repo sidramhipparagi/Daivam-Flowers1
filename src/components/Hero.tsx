@@ -49,7 +49,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10 bg-white rounded-2xl shadow-2xl overflow-hidden">
               <img 
-                src="./images/ChatGPT Image Jun 17, 2025, 11_51_00 AM.png" 
+                src="./images/image1.png" 
                 alt="Fresh flowers from K R Market" 
                 className="w-full h-96 object-cover"
               />

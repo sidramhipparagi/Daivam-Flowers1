@@ -49,7 +49,7 @@ const About = () => {
           
           <div className="relative">
             <img 
-              src="./images/K R Market.png" 
+              src="./images/image2.png" 
               alt="K R Market Bengaluru" 
               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
             />

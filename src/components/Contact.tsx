@@ -108,7 +108,7 @@ const Contact = () => {
         
         <div className="border-t border-gray-800 mt-16 pt-8 text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">
-            <img src="/logo_colour.png" alt="Daivam Flowers Logo" className="h-12" />
+            <img src="./logo_colour.png" alt="Daivam Flowers Logo" className="h-12" />
           </div>
           <p className="text-gray-400">
             Fresh flowers delivered with love from K R Market, Bengaluru
