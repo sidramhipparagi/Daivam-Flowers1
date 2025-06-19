@@ -36,9 +36,6 @@ const Hero = () => {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-gradient-to-r from-pink-600 to-pink-700 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-pink-700 hover:to-pink-800 transition-all duration-300 transform hover:scale-105 shadow-lg">
-                Order Now
-              </button>
-              <button className="border-2 border-orange-500 text-orange-500 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-orange-500 hover:text-white transition-all duration-300">
                 View Collection
               </button>
             </div>
