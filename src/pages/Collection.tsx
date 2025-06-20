@@ -12,42 +12,42 @@ const Collection = () => {
       id: 1,
       name: "Red Roses",
       price: "₹50/dozen",
-      image: "/images/ChatGPT Image Jun 17, 2025, 11_51_00 AM.png",
+      image: "/images/image1.png",
       description: "Fresh red roses perfect for special occasions"
     },
     {
       id: 2,
       name: "White Lilies",
       price: "₹40/bunch",
-      image: "/images/ChatGPT Image Jun 17, 2025, 11_51_00 AM.png",
+      image: "/images/image2.png",
       description: "Pure white lilies for elegant arrangements"
     },
     {
       id: 3,
       name: "Yellow Marigolds",
       price: "₹30/kg",
-      image: "/images/ChatGPT Image Jun 17, 2025, 11_51_00 AM.png",
+      image: "/images/image1.png",
       description: "Bright yellow marigolds for festivals"
     },
     {
       id: 4,
       name: "Pink Carnations",
       price: "₹45/bunch",
-      image: "/images/ChatGPT Image Jun 17, 2025, 11_51_00 AM.png",
+      image: "/images/image2.png",
       description: "Soft pink carnations for gentle occasions"
     },
     {
       id: 5,
       name: "Orange Gerberas",
       price: "₹35/bunch",
-      image: "/images/ChatGPT Image Jun 17, 2025, 11_51_00 AM.png",
+      image: "/images/image1.png",
       description: "Vibrant orange gerberas for cheerful moments"
     },
     {
       id: 6,
       name: "Purple Orchids",
       price: "₹80/piece",
-      image: "/images/ChatGPT Image Jun 17, 2025, 11_51_00 AM.png",
+      image: "/images/image2.png",
       description: "Exotic purple orchids for luxury arrangements"
     }
   ];
